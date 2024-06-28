@@ -62,7 +62,7 @@ function App() {
           <SEO
             instanceid={InstanceId_SEO}
             productid={ProductId}
-            active="true"
+            active="false"
             heading="SEO"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -73,7 +73,7 @@ function App() {
 
           <ReviewsCarousel
             instanceid={InstanceId_Carousel}
-            active="false"
+            active="true"
             heading="Reviews Carousel"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
