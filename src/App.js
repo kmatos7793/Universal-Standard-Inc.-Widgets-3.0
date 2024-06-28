@@ -73,7 +73,6 @@ function App() {
 
           <ReviewsCarousel
             instanceid={InstanceId_Carousel}
-            productid={ProductId}
             active="false"
             heading="Reviews Carousel"
             clipboardheading={ClipBoardHeading}
