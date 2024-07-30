@@ -38,7 +38,7 @@ function App() {
           <Widget
             instanceid={InstanceId_Widget}
             productid={ProductId}
-            active="true"
+            active="false"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -63,7 +63,7 @@ function App() {
             instanceid={InstanceId_SEO}
             productid={ProductId}
             mode-preview="true"
-            active="false"
+            active="true"
             heading="SEO"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
