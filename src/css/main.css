@@ -396,6 +396,10 @@ body {
 .yotpo-reviews-main-widget #yotpo-main-widget-btn.yotpo-new-review-btn {
   border-radius: 3px;
 }
+
+.yotpo-reviews-main-widget:not(.yotpo-device-mobile) .yotpo-bottom-line + .yotpo-new-review-btn-wrapper {
+  align-self: flex-end;
+}
 /*END OF REVIEWS HEADER SECTION*/
 
 /*START OF REVIEWS FILTER SECTION*/
