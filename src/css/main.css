@@ -561,6 +561,7 @@ body {
 }
 
 #yotpo-reviews-main-widget .yotpo-mobile-filters-popup-overlay-container .yotpo-mobile-filters-popup-content input,
+#yotpo-reviews-main-widget .yotpo-mobile-filters-popup-overlay-container .yotpo-mobile-filters-popup-content button,
 #yotpo-reviews-main-widget .yotpo-filters-results-btn .yotpo-filters-results-btn-no-results .yotpo-filters-results-btn-clear-wrapper .yotpo-filters-results-btn-clear {
   border-radius: 3px;
 }
