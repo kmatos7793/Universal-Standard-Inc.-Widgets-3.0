@@ -566,6 +566,10 @@ body {
   border-radius: 3px;
 }
 
+#yotpo-reviews-main-widget .yotpo-mobile-filters-popup-overlay-container .yotpo-mobile-filters-popup-content .yotpo-score-filter label {
+  width: 100%;
+}
+
 #yotpo-reviews-main-widget .yotpo-filters-container .yotpo-dropdown-content {
   background-color: #fff !important;
   width: 100%;
