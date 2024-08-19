@@ -19,7 +19,7 @@ function App() {
   let InstanceId_ReviewsTab = "";
 
   //Product ID
-  let ProductId = "136932";
+  let ProductId = "";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
@@ -39,6 +39,7 @@ function App() {
             instanceid={InstanceId_Widget}
             productid={ProductId}
             active="true"
+            mode-preview="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -51,6 +52,7 @@ function App() {
             instanceid={InstanceId_QA}
             productid={ProductId}
             active="false"
+            mode-preview="true"
             heading="Q&A"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
@@ -87,6 +89,7 @@ function App() {
             instanceid={InstanceId_StarRating}
             productid={ProductId}
             active="false"
+            mode-preview="true"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
             clipboardscript={ScriptClipboard}
