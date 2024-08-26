@@ -50,6 +50,7 @@ function App() {
           <QA
             instanceid={InstanceId_QA}
             productid={ProductId}
+            mode-preview="true"
             active="false"
             heading="Q&A"
             clipboardheading={ClipBoardHeading}
