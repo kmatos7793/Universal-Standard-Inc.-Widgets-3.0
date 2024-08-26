@@ -19,7 +19,7 @@ function App() {
   let InstanceId_ReviewsTab = "840537";
 
   //Product ID
-  let ProductId = "";
+  let ProductId = "190";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
@@ -38,7 +38,6 @@ function App() {
           <Widget
             instanceid={InstanceId_Widget}
             productid={ProductId}
-            mode-preview="true"
             active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
@@ -51,7 +50,6 @@ function App() {
           <QA
             instanceid={InstanceId_QA}
             productid={ProductId}
-            mode-preview="true"
             active="false"
             heading="Q&A"
             clipboardheading={ClipBoardHeading}
@@ -64,7 +62,6 @@ function App() {
           <SEO
             instanceid={InstanceId_SEO}
             productid={ProductId}
-            mode-preview="true"
             active="false"
             heading="SEO"
             clipboardheading={ClipBoardHeading}
@@ -76,7 +73,6 @@ function App() {
 
           <ReviewsCarousel
             instanceid={InstanceId_Carousel}
-            mode-preview="true"
             active="false"
             heading="Reviews Carousel"
             clipboardheading={ClipBoardHeading}
@@ -89,7 +85,6 @@ function App() {
           <StarRating
             instanceid={InstanceId_StarRating}
             productid={ProductId}
-            mode-preview="true"
             active="false"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
@@ -125,8 +120,7 @@ function App() {
 
           <ReviewsTab 
             instanceid={InstanceId_ReviewsTab} 
-            productid={ProductId}
-            mode-preview="true" 
+            productid={ProductId} 
           />
         </div>
       </div>
