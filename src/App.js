@@ -49,7 +49,7 @@ function App() {
 
           <QA
             instanceid={InstanceId_QA}
-            productid={ProductId}
+            productid=""
             mode-preview="true"
             active="false"
             heading="Q&A"
