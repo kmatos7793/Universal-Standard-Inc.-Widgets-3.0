@@ -9,17 +9,17 @@ import UgcGallery from "./components/UgcGallery";
 
 function App() {
   //Instance ID
-  let InstanceId_Widget = "1063447";
+  let InstanceId_Widget = "977620";
   let InstanceId_QA = "";
-  let InstanceId_SEO = "";
-  let InstanceId_Carousel = "";
-  let InstanceId_StarRating = "1063448";
+  let InstanceId_SEO = "1064580";
+  let InstanceId_Carousel = "977650";
+  let InstanceId_StarRating = "977621";
   let InstanceId_PromotedProd = "";
   let InstanceId_UgcGallery = "";
-  let InstanceId_ReviewsTab = "";
+  let InstanceId_ReviewsTab = "1064579";
 
   //Product ID
-  let ProductId = "SO-TCC60-BSR";
+  let ProductId = "46249";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
